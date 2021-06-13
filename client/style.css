@@ -1,0 +1,133 @@
+
+#app-menu {
+    background-color: lightcoral;
+    height: 60px;
+    text-align: center;
+}
+
+#app-menu li{
+    float: left;
+ 
+}
+.menu-item a{
+    width: 110px;
+    padding: 5px;
+    display: block;
+    color: white
+}
+.room-list a{
+    display: inline;
+    color: purple;
+    vertical-align:auto;
+}
+#rooms {
+    padding-inline-start: 90px;
+}
+#profile {
+    padding-inline-start: 240px;
+}
+#app-menu a:hover{
+    background-color:pink;
+    color: lightcoral;
+}
+.menu-item{
+    padding: 15px;
+}
+/* On screens that are smaller than 768px */
+#app-view, .page-control{
+    width: 100%;
+}
+/* On screens that are more than or equal to 768 wide and less than 1024px */
+@media screen and (min-width: 768px) {
+    #app-view, .page-control{
+         width: 90%;
+    } 
+ }
+/* On screens that are 1024px wide or more */
+@media screen and (min-width: 1024px) {
+   #app-view, .page-control{
+         width: 80%;
+   } 
+}
+
+.message{
+    position: relative;
+    background-color:white;
+    left:0;
+    right: 30px;
+    padding-left: 10px;
+    border: 2px solid purple;
+    margin: 5px;
+}
+
+.my-message{
+    position: relative;
+    left: 30px;  
+    right:0;
+    background-color:lightpink;
+    border: 2px solid lightpink;
+}
+.roomlist{
+    float: left;
+}
+.room-list li{
+    background-color: bisque;
+    border: 1px solid lightpink;
+}
+.room-list li:hover{
+    background-color: lightpink;
+}
+.room-image {
+   width:28px;
+   height:28px;
+   padding: 5px;
+   border-radius: 50%;
+   vertical-align: middle;
+
+}
+.menu-image {
+   width:30px;
+   height:30px;
+   float: left;
+   -webkit-filter: invert(100%);
+   filter: invert(100%);
+}
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+
+}
+a {
+    text-decoration-line: none;
+}
+.page-control{
+    background-color: lightcoral;
+    position: fixed;
+    bottom:0;
+    text-align: center;
+
+}
+.page-control form{
+    padding:5px;
+    margin:10px;
+}
+
+.form-field{
+    margin:5px;
+    border: 1px solid lightpink;  
+}
+label, .message-user{
+    font-weight: bold;
+}
+#page-view{
+    padding:0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+
+
